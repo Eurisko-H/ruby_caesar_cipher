@@ -3,7 +3,7 @@ task :environment do
 end
 
 
-take :console => :environment do
+task :console => :environment do
   binding.pry
 end
 
