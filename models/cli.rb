@@ -19,8 +19,10 @@ class CLI
     case input
     when "Encrypt"
       run_encrypt
+      menu
     when "Decrypt"
       run_decrypt
+      menu
     else "Exit"
       run_log_out
     end
